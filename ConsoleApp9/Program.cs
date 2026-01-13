@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Numerics;
 
-class Program 
+class Program
 {
 
-    static void Main(string[] args) 
+    static void Main(string[] args)
     {
 
         int sum = 0;
@@ -18,18 +18,12 @@ class Program
 
             if (int.TryParse(input, out inputNumber))
             {
-
                 sum += inputNumber;
             }
-     
         }
-        {
             Console.WriteLine($"合計は{sum}です");
-        }
-        }
-    
-    
-    
+
     }
+}
 
 
